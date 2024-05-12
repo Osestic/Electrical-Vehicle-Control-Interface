@@ -3,7 +3,7 @@
 
 Oriekaose Agholor and Andrew Pries presenting this project to Senator Gary Peters and National Cyber Director, Harry Coker, Jr., during their visit to the University of Detroit Mercy
 ![image](https://github.com/Osestic/Xbox-Woodpecker-Electrical-Vehicle-Interface/assets/42704298/90b6bb2a-35ac-4027-9f35-61e07d7346bc)
-***<p style="text-align: center;">The Xbox Control Layout We Specified for controlling the Electrical Vehicle Platform</p>
+<p style="text-align: center;">The Xbox Control Layout We Specified for controlling the Electrical Vehicle Platform</p>
 
 ## Description
 Our project was oriented around using an Xbox controller to control the Woodpecker Electric Vehicle (EV) vehicle through a combination of RS232 USB serial communication, ROS2 publisher/subscriber nodes and CAN. 
@@ -46,7 +46,7 @@ Steps to install the program:
 
    a. Create a new folder on both devices and create a ```src``` folder in both.
  
-   b. In the Bash terminal, 
+   b. In the Bash terminal, ```src``` 
 3. Download the python project in the [Arm_Position_Capture](https://github.com/Osestic/WidowX_Arm_HIWONDER_Bionic_Hand-Interface/tree/main/Robocontroller_Arm/Arm_Position_Capture)/ folder contained in [Robocontroller_Arm](https://github.com/Osestic/WidowX_Arm_HIWONDER_Bionic_Hand-Interface/tree/main/Robocontroller_Arm)/ and run it on a Integrated Development Environment (IDE) or text editor that can support Python 2 such as Pycharm.
 4. You may need to install a virtual interpreter for Python 2.
 5. Run ```PyPose.py``` from the folder which will bring up the Arm position software.
