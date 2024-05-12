@@ -24,7 +24,7 @@ Overall, the Xbox controller can forward steer, reverse steer, brake and acceler
 4.	Integrate one of the Raspberry Pis with the Woodpecker Electric Vehicle (EV) platform by connecting the CAN High and CAN Low of the RS485-CAN-HAT to that of the EV platform.
 
 ### Note:
-1. Ensure both Raspberry Pi's are on the same Ethernet or internal WI-FI network for the following steps.
+  Ensure both Raspberry Pi's are on the same Ethernet or internal WI-FI network for the following steps.
 
 ## Programmed With
 
