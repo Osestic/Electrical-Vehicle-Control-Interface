@@ -7,7 +7,7 @@
 
 The System Block Diagram
 ## Description
-Our project was oriented around using an Xbox controller to control the Woodpecker Electric Vehicle (EV) vehicle through a combination of RS232 USB serial communication, ROS2 publisher/subscriber nodes and CAN. 
+Our project was oriented around using an Xbox controller to control the Woodpecker Electric Vehicle (EV) through a combination of RS232 USB serial communication, ROS2 publisher/subscriber nodes and CAN. 
 
 It pushed our minds and abilities to be able to create our own interfacing and electric vehicle control software that we can go on to improve upon and implement either in our own projects, the company we work for or our own company if we choose to found one. It is also a pathway into electrical vehicle cybersecurity as cars around 3 years back were being hacked through their CAN, compromising them.
 
@@ -19,7 +19,7 @@ Overall, the Xbox controller can forward steer, reverse steer, brake and acceler
 
 
 ## Set up
-1. Install Ubuntu and Ros2 on both Raspberry Pis.
+1.  Install Ubuntu and Ros2 on both Raspberry Pis.
 2.	Install the CAN system on two Raspberry Pis using the instructions in ```RS485-CAN-HAT-user-manuakl-en.pdf```.
 3.	Connect an RS485-CAN-HAT to each of the Raspberry Pis.
 4.	Integrate one of the Raspberry Pis with the Woodpecker Electric Vehicle (EV) platform by connecting the CAN High and CAN Low of the RS485-CAN-HAT to that of the EV platform.
