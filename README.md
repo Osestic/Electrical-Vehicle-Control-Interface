@@ -36,7 +36,7 @@ Overall, the Xbox controller can forward steer, reverse steer, brake and acceler
 
 
 ## Installation
-There are 2 different folders containing the two major pieces of the project:
+There are 2 different folders containing the two major parts of the code for the project:
 - [Publisher_node](https://github.com/Osestic/Xbox-Woodpecker-Electrical-Vehicle-Interface/tree/main/Publisher_node)
 
 - [Subscriber_node](https://github.com/Osestic/Xbox-Woodpecker-Electrical-Vehicle-Interface/tree/main/Subscriber_node)
