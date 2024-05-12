@@ -17,20 +17,16 @@ Overall, the Xbox controller can forward steer, reverse steer, brake and acceler
 
 ## Set up
 1.	Install the CAN system on two Raspberry Pis using the instructions in ```RS485-CAN-HAT-user-manuakl-en.pdf```.
-2.	Screw the HIWONDER BIONIC Hand onto it.
-3.	Connect the pins to be configured as pulse-width modulation pins to hand.
+2.	Connect an RS485-CAN-HAT to each of the Raspberry Pis.
+3.	Integrate one of the Raspberry Pis with the Woodpecker Electric Vehicle (EV) platform by connecting the CAN High and CAN Low of the RS485-CAN-HAT to that of the EV platform.
 4.	Connect the pins to be configured for parallel communication to pins on the Arbotix -M 
 Arduino.
 
 ### Note:
-1.	The codes to be mentioned below contain the specific pins configured for steps 3 and 4 above. Your own pins can be configured as well.
-2.	Employ good cable/wire management to ensure proper connections and to easily debug issues which often stem from disconnections. Breadboards are quite useful, and one was used for this project.
-3.	When the motors fault out due to exceeding the limits of their possible positions or as safety measures to protect users, they flash red and are disabled. Unplug the power cord and plug back in to rest them. 
-4.	Unplug the power cord to relax the motors or run ‘’’PyPose.py’’’ , to be mentioned below.
+1. Ensure both Raspberry Pi's are on the same Ethernet or internal WI-FI networks for the following steps.
 
 ## Programmed With
 
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
