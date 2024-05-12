@@ -92,10 +92,10 @@ The Xbox Control Layout We Specified for Controlling the Electrical Vehicle Plat
  
 ## Authors
 This project was a result of the collaborative effort of:
-1. Oriekaose Chukwuyem Agholor - Aspiring Robotics and Mechatronic Systems Engineer [https://github.com/Osestic]
+1. Oriekaose Chukwuyem Agholor[Oriekaose Chukwuyem Agholor](https://www.linkedin.com/in/brandon-smith4/) - Aspiring Robotics and Mechatronic Systems Engineer 
 2. Andrew Pries - Aspiring Computer Scientists
-3. Brandom Smith - Aspring Robotics and Mechatronic Systems Engineer
-4. Edrees Ahmed - Aspiring Electrical Engineer
+3. [Brandom Smith](https://www.linkedin.com/in/brandon-smith4/) - Aspiring Robotics and Mechatronic Systems Engineer
+4. Edrees Ahmed [Edrees Ahmed](https://www.linkedin.com/in/edrees-ahmed-1a2186168/)- Aspiring Electrical Engineer
 
 ## License
 This project is licensed under the “Commons Clause” License Condition v1.0. See ```LICENSE``` for more information.
