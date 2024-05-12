@@ -47,7 +47,7 @@ Steps to install the program:
    a. Create a new folder on both devices and create a ```src``` folder in both.
    ````
 ```bash
-Look! You can see my backticks.
+cd Desktop
 ```
 ````
 
