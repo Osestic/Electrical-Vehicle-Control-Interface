@@ -1,13 +1,19 @@
-# Xbox-Woodpecker-Electrical-Vehicle-Interface
-# WidowX_Arm_HIWONDER_Bionic_Hand_Embedded System </h2>
+# Xbox-Woodpecker-Electrical-Vehicle-Interface </h2>
 
 
 <img src="https://github.com/Osestic/WidowX_Arm_HIWONDER_Bionic_Hand-Interface/assets/42704298/25f37eee-65a8-4e1e-a7c2-306f3ad84e96" width="300"/>
 
 ## Description
-For our Introduction to Microcontrollers course final project, [Evan Varga](https://www.linkedin.com/in/evan-varga-2a21aa221/) and I embarked on integrating a WidowX Robotic Arm controlled with an Arbotix - M Arduino, a robocontroller, with a HIWONDER Bionic hand controlled by a Tiva C Series TM4C123G microcontroller, creating an embedded system, to perform various hand and arm gestures, play a game and play an instrument. 
+Our group's project was oriented around using an Xbox controller to control the Woodpecker Electric Vehicle (EV) vehicle through a combination of RS232 USB serial communication, ROS2 publisher/subscriber nodes and CAN. 
 
-Through the microcontroller's Universal Asynchronous Receiver-Transmitter (UART) module, commands can be sent to the microcontroller to cause the fingers of the HIWONDER bionic hand to move into certain positions through pulse-width modulations. These commands also cause digital signals to be sent through parallel communication to the Arbotix -M robotcontroller. These signals make the WidowX arm move into certain position or perform sequences of positions. All these working together lead to creative gestures and actions being performed.
+It pushes our minds and abilities to be able to create our own interfacing and electric vehicle control software that we can go on to improve up on and implement either in our own projects, the company we work for or our own company if we choose to found one. It is also a pathway into electrical vehicle cybersecurity as cars around 3 years back were being hacked through their CAN, compromising them.
+
+The project involved installing ROS2 on two separate Raspberry Pi’s, creating a publisher C file on one Raspberry Pi, and a subscriber C file on the other.  We then were able to connect the Xbox controller and receive data into the publisher using a format for event-driven architecture. We then manipulated the data in the way we wanted to send it to the subscriber. 
+
+Next, we were able to connect the car’s CAN bus to the CAN (Controller Area Network) shield on the subscriber Raspberry Pi. After that, we took the demo CAN send code provided and incorporated it into our ROS2 subscriber code that was receiving data from the topic and used it to send that data to the CAN of the vehicle. 
+
+Overall, the Xbox controller can forward steer, reverse steer, brake and accelerate/decelerate the vehicle by sending data to the modules responsible for each action. We used one joystick for steering and the other for braking. Also, we used each trigger for the forward and reversing respectively. We were able to get the steering and braking to work correctly, and although the code was written for acceleration, the state of the vehicle prevented us from testing it.
+
 
 ## Set up
 1.	Unscrew the plastic claw piece from the from Widowx Arm.
