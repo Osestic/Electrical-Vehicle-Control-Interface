@@ -45,6 +45,12 @@ Steps to install the program:
 1. Create a ROS2 package on both Raspberry Pis by doing the following
 
    a. Create a new folder on both devices and create a ```src``` folder in both.
+   ````
+```bash
+Look! You can see my backticks.
+```
+````
+
  
    b. In the Bash terminal, ```src``` 
 3. Download the python project in the [Arm_Position_Capture](https://github.com/Osestic/WidowX_Arm_HIWONDER_Bionic_Hand-Interface/tree/main/Robocontroller_Arm/Arm_Position_Capture)/ folder contained in [Robocontroller_Arm](https://github.com/Osestic/WidowX_Arm_HIWONDER_Bionic_Hand-Interface/tree/main/Robocontroller_Arm)/ and run it on a Integrated Development Environment (IDE) or text editor that can support Python 2 such as Pycharm.
