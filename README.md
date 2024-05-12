@@ -2,9 +2,9 @@
 ![Cyberdirector](https://github.com/Osestic/Xbox-Woodpecker-Electrical-Vehicle-Interface/assets/42704298/2618f998-ee56-48d8-8924-cf8c0920eed5)
 
 Oriekaose Agholor and Andrew Pries presenting this project to Senator Gary Peters (on the far left) and National Cyber Director, Harry Coker, Jr. (on the right), during their visit to the University of Detroit Mercy
-![image](https://github.com/Osestic/Xbox-Woodpecker-Electrical-Vehicle-Interface/assets/42704298/90b6bb2a-35ac-4027-9f35-61e07d7346bc)
-<p style="text-align: center;">The Xbox Control Layout We Specified for Controlling the Electrical Vehicle Platform</p>
 
+![image](https://github.com/Osestic/Xbox-Woodpecker-Electrical-Vehicle-Interface/assets/42704298/af71fddf-a03f-4eec-9f53-9b2c77fc29a9)
+The System Block Diagram
 ## Description
 Our project was oriented around using an Xbox controller to control the Woodpecker Electric Vehicle (EV) vehicle through a combination of RS232 USB serial communication, ROS2 publisher/subscriber nodes and CAN. 
 
@@ -24,7 +24,8 @@ Overall, the Xbox controller can forward steer, reverse steer, brake and acceler
 4.	Integrate one of the Raspberry Pis with the Woodpecker Electric Vehicle (EV) platform by connecting the CAN High and CAN Low of the RS485-CAN-HAT to that of the EV platform.
 
 ### Note:
-  Ensure both Raspberry Pi's are on the same Ethernet or internal WI-FI network for the following steps.
+  - Ensure both Raspberry Pi's are on the same Ethernet or internal WI-FI network for the following steps.
+  - Make sure the ```~/.bashrc``` file of both Raspberry Pi's have the same ROS_DOMAIN_ID and that ROS_LOCALHOST_ONLY is either set to 0 or deleted. 
 
 ## Programmed With
 
@@ -63,13 +64,17 @@ ros2 create pkg yourPackageName
 7. Afterwards, execute ```source install/local_setup.bash``` in the ```install``` folders within the ```src``` folders.
 
 ## Usage
-To run the current capabilities of the WidowX_Arm_HIWONDER_Bionic_Hand-Interface, do the following:
-1. Run the ```main.c``` of the project in Code Composer studio to install it on the microcontroller.
-2. Run the ```main.ino```.
-3. Type in a character that enacts a specific functionality as specified in the ```main.c``` mentioned.
+To use an Xbox to control the WoodpeckervElectrical Vehicle Interface, do the following:
+1. Run  ls ```/dev/input/ ``` in the bash terminal of the publisher node.
+2. Connect the Xbox controller to the publisher node.
+3. Run  ls ```/dev/input/ ``` again.
+4. Compare both outputs and  make note of the new input device file name that starts with ```event```.
+5. Run ```ros2 run yourPackageName pubvelcpp /dev/input/inputDeviceFileName``` in the Bash terminal in your workspace at the same level as the ```src``` folder.
+6. Then, on your subscriber node run ```ros2 run yourPackageName subscribe ``` in the Bash terminal in your workspace at the same level as the ```src``` folder.
+7. Now, you can utilise the Xbox to control the EV platform using the button control layout provided below.
 
-The following are pictures of the  WidowX_Arm_HIWONDER_Bionic_Hand-Interface in performing different hand positions. 
-
+![image](https://github.com/Osestic/Xbox-Woodpecker-Electrical-Vehicle-Interface/assets/42704298/90b6bb2a-35ac-4027-9f35-61e07d7346bc)
+The Xbox Control Layout We Specified for Controlling the Electrical Vehicle Platform</p>
 
 - Playing the piano:
 <img src="https://github.com/Osestic/WidowX_Arm_HIWONDER_Bionic_Hand-Interface/assets/42704298/cb93812d-9d59-4cbb-93cf-d6da717aa819">
@@ -81,20 +86,7 @@ The following are pictures of the  WidowX_Arm_HIWONDER_Bionic_Hand-Interface in 
 
 [Video Demo](https://youtu.be/vg_HYsMw0Hg) 
 
-To capture new positions and sequences for the WidowX_Arm_HIWONDER_Bionic_Hand-Interface, do the following:
-1. Run the ```PyPose.py```.
-2. Run the ```pypose.ino```.
-3. Select the maximum resolution, 4096.
-4. Select a serial port from the config tab.
-5. Select the pose editor from the tools and create a new position.
-6. Select capture position.
-7. Set can be used to set the position.
-8. Select the tools tab and select sequence editor.
-9. Load in the positions you have captured and choose the duration you wish for each one.
-10. Export the positions and sequences you have created by clicking the export to AVR fromt the tools tab.
-11. You can save the application as a file you can always load.
 
-The image of how the pose capturing looks like is shown below:
 ![Screenshot 2023-12-17 200032](https://github.com/Osestic/WidowX_Arm_HIWONDER_Bionic_Hand-Interface/assets/42704298/a565100c-5b07-490d-9a5a-44bf54016e5d)
 
  
@@ -114,8 +106,7 @@ This project is licensed under the “Commons Clause” License Condition v1.0. 
 
 
 ## Recommendations
-- In the ```main.c``` , spend less time in the interrupts
-- Include your own gestures and actions
-- Allow other persons to view the project
-- Act on their feedback accordingly
+- Utilise a more robust means of acceleration using a set of equations to convert the publisher data to correspond to hexadecimal values that are sent to the CAN bus for acceleration if possible.
+- Allow other persons to view the project.
+- Act on their feedback accordingly.
 
