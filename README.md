@@ -45,7 +45,7 @@ There are 2 different folders containing the two major parts of the code for the
 As the names imply, the first folder contains the code for setting up and creating the publisher node to be installed on one Raspberry Pi, and the other folder contains the code for the subscriber node to be installed on the Raspberry Pi integrated with the EV platform. 
 
 Steps to install the program:
-1. Create a ROS2 package on both Raspberry Pis by doing the following
+1. Create a ROS2 package on both Raspberry Pis by doing the following:
 
    a. Create a new folder, your workspace, on both devices and create a ```src``` folder in both.
 
