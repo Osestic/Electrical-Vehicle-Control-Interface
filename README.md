@@ -51,7 +51,7 @@ Steps to install the program:
 
    b. In the Bash terminals of both Raspberry Pis run the code below.
 ```bash
-#Replace the address/address/ with the src folder location
+#Replace the address/yourWorkSpace/ with the src folder location
 cd address/yourWorkSpace/src
 
 #Creates a package
