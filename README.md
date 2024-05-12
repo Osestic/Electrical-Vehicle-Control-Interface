@@ -76,12 +76,11 @@ To use an Xbox to control the WoodpeckervElectrical Vehicle Interface, do the fo
 ![image](https://github.com/Osestic/Xbox-Woodpecker-Electrical-Vehicle-Interface/assets/42704298/90b6bb2a-35ac-4027-9f35-61e07d7346bc)
 The Xbox Control Layout We Specified for Controlling the Electrical Vehicle Platform</p>
 
-# Development Process
-- Playing the piano:
-<img src="https://github.com/Osestic/WidowX_Arm_HIWONDER_Bionic_Hand-Interface/assets/42704298/cb93812d-9d59-4cbb-93cf-d6da717aa819">
+## Development Process
+[Check out the development process in my YouTube playlist](https://www.youtube.com/playlist?list=PL0DIBq2mP_CGUCG4vjxHVTH7tr-DX0TGv)
 
 
-# Presentation and Demo to Senator Gary Peters (on the far left) and National Cyber Director, Harry Coker, Jr. 
+## Presentation and Demo to Senator Gary Peters (on the far left) and National Cyber Director, Harry Coker, Jr. 
 ![vehicle present](https://github.com/Osestic/Xbox-Woodpecker-Electrical-Vehicle-Interface/assets/42704298/d906fbe6-7b2e-4556-9d71-ab96f1bfa41f)
 [Video Demo](https://youtu.be/h61ZqsItLts?si=CaRQgDzqr-zjd_1M) 
 
