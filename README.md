@@ -4,9 +4,9 @@
 Oriekaose Agholor and Andrew Pries presenting this project to Senator Gary Peters and National Cyber Director, Harry Coker, Jr., during their visit to the University of Detroit Mercy
 
 ## Description
-Our group's project was oriented around using an Xbox controller to control the Woodpecker Electric Vehicle (EV) vehicle through a combination of RS232 USB serial communication, ROS2 publisher/subscriber nodes and CAN. 
+Our project was oriented around using an Xbox controller to control the Woodpecker Electric Vehicle (EV) vehicle through a combination of RS232 USB serial communication, ROS2 publisher/subscriber nodes and CAN. 
 
-It pushes our minds and abilities to be able to create our own interfacing and electric vehicle control software that we can go on to improve up on and implement either in our own projects, the company we work for or our own company if we choose to found one. It is also a pathway into electrical vehicle cybersecurity as cars around 3 years back were being hacked through their CAN, compromising them.
+It pushed our minds and abilities to be able to create our own interfacing and electric vehicle control software that we can go on to improve up on and implement either in our own projects, the company we work for or our own company if we choose to found one. It is also a pathway into electrical vehicle cybersecurity as cars around 3 years back were being hacked through their CAN, compromising them.
 
 The project involved installing ROS2 on two separate Raspberry Pi’s, creating a publisher C file on one Raspberry Pi, and a subscriber C file on the other.  We then were able to connect the Xbox controller and receive data into the publisher using a format for event-driven architecture. We then manipulated the data in the way we wanted to send it to the subscriber. 
 
