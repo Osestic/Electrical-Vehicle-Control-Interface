@@ -16,12 +16,13 @@ Overall, the Xbox controller can forward steer, reverse steer, brake and acceler
 
 
 ## Set up
-1.	Install the CAN system on two Raspberry Pis using the instructions in ```RS485-CAN-HAT-user-manuakl-en.pdf```.
-2.	Connect an RS485-CAN-HAT to each of the Raspberry Pis.
-3.	Integrate one of the Raspberry Pis with the Woodpecker Electric Vehicle (EV) platform by connecting the CAN High and CAN Low of the RS485-CAN-HAT to that of the EV platform.
+1. Install Ubuntu and Ros2 on both Raspberry Pis.
+2.	Install the CAN system on two Raspberry Pis using the instructions in ```RS485-CAN-HAT-user-manuakl-en.pdf```.
+3.	Connect an RS485-CAN-HAT to each of the Raspberry Pis.
+4.	Integrate one of the Raspberry Pis with the Woodpecker Electric Vehicle (EV) platform by connecting the CAN High and CAN Low of the RS485-CAN-HAT to that of the EV platform.
 
 ### Note:
-1. Ensure both Raspberry Pi's are on the same Ethernet or internal WI-FI networks for the following steps.
+1. Ensure both Raspberry Pi's are on the same Ethernet or internal WI-FI network for the following steps.
 
 ## Programmed With
 
@@ -38,13 +39,15 @@ There are 2 different folders containing the two major pieces of the project:
 
 As the names imply, the first folder contains the code for setting up and creating the publisher node to be installed on one Raspberry Pi, and the other folder contains the code for the subscriber node to be installed on the Raspberry Pi integrated with the EV platform. 
 
-Steps to install the softwares:
-1. Download the project in [Microcontroller_Hand](https://github.com/Osestic/WidowX_Arm_HIWONDER_Bionic_Hand-Interface/tree/main/Microcontroller_Hand)/ and run it on Code Composer studio to install it on a Tiva C Series TM4C123G microcontroller.
-2. Download the python project in the [Arm_Position_Capture](https://github.com/Osestic/WidowX_Arm_HIWONDER_Bionic_Hand-Interface/tree/main/Robocontroller_Arm/Arm_Position_Capture)/ folder contained in [Robocontroller_Arm](https://github.com/Osestic/WidowX_Arm_HIWONDER_Bionic_Hand-Interface/tree/main/Robocontroller_Arm)/ and run it on a Integrated Development Environment (IDE) or text editor that can support Python 2 such as Pycharm.
-3. You may need to install a virtual interpreter for Python 2.
-4. Run ```PyPose.py``` from the folder which will bring up the Arm position software.
-5. Run ```pypose.ino``` on the robocontroller with Arduino 1.8.5 (Do so for all arduino files). This will work with the python software to capture the position of the robot arm by just moving it and pressing the capture button.
-6. Run ```main.ino```, and do so with ```poses.h``` being in its same location. This contains the code that interfaces the robocontroller with the microcontroller. You can create more gestures and include the robot commands in it.
+Steps to install the program:
+1. Create a ROS2 package on both Raspberry Pis by doing the following
+   a. Create a new folder on both devices and create a ```src``` folder in both.
+   b. In the Bash terminal, 
+3. Download the python project in the [Arm_Position_Capture](https://github.com/Osestic/WidowX_Arm_HIWONDER_Bionic_Hand-Interface/tree/main/Robocontroller_Arm/Arm_Position_Capture)/ folder contained in [Robocontroller_Arm](https://github.com/Osestic/WidowX_Arm_HIWONDER_Bionic_Hand-Interface/tree/main/Robocontroller_Arm)/ and run it on a Integrated Development Environment (IDE) or text editor that can support Python 2 such as Pycharm.
+4. You may need to install a virtual interpreter for Python 2.
+5. Run ```PyPose.py``` from the folder which will bring up the Arm position software.
+6. Run ```pypose.ino``` on the robocontroller with Arduino 1.8.5 (Do so for all arduino files). This will work with the python software to capture the position of the robot arm by just moving it and pressing the capture button.
+7. Run ```main.ino```, and do so with ```poses.h``` being in its same location. This contains the code that interfaces the robocontroller with the microcontroller. You can create more gestures and include the robot commands in it.
 
 ## Usage
 To run the current capabilities of the WidowX_Arm_HIWONDER_Bionic_Hand-Interface, do the following:
