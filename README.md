@@ -1,4 +1,4 @@
-# Xbox-Woodpecker-Electrical-Vehicle-Interface </h2>
+# Xbox Woodpecker Electrical Vehicle Interface </h2>
 ![Cyberdirector](https://github.com/Osestic/Xbox-Woodpecker-Electrical-Vehicle-Interface/assets/42704298/2618f998-ee56-48d8-8924-cf8c0920eed5)
 
 Oriekaose Agholor and Andrew Pries presenting this project to Senator Gary Peters (on the far left) and National Cyber Director, Harry Coker, Jr. (on the right), during their visit to the University of Detroit Mercy
@@ -76,24 +76,20 @@ To use an Xbox to control the WoodpeckervElectrical Vehicle Interface, do the fo
 ![image](https://github.com/Osestic/Xbox-Woodpecker-Electrical-Vehicle-Interface/assets/42704298/90b6bb2a-35ac-4027-9f35-61e07d7346bc)
 The Xbox Control Layout We Specified for Controlling the Electrical Vehicle Platform</p>
 
+# Development Process
 - Playing the piano:
 <img src="https://github.com/Osestic/WidowX_Arm_HIWONDER_Bionic_Hand-Interface/assets/42704298/cb93812d-9d59-4cbb-93cf-d6da717aa819">
 
 
-
-- Playing rock, paper and scissors:
-<img src="https://github.com/Osestic/WidowX_Arm_HIWONDER_Bionic_Hand-Interface/assets/42704298/20376c5a-8b07-44d5-b52b-3d32332adce1">
-
-[Video Demo](https://youtu.be/vg_HYsMw0Hg) 
-
-
-![Screenshot 2023-12-17 200032](https://github.com/Osestic/WidowX_Arm_HIWONDER_Bionic_Hand-Interface/assets/42704298/a565100c-5b07-490d-9a5a-44bf54016e5d)
+# Presentation and Demo to Senator Gary Peters (on the far left) and National Cyber Director, Harry Coker, Jr. 
+![vehicle present](https://github.com/Osestic/Xbox-Woodpecker-Electrical-Vehicle-Interface/assets/42704298/d906fbe6-7b2e-4556-9d71-ab96f1bfa41f)
+[Video Demo](https://youtu.be/h61ZqsItLts?si=CaRQgDzqr-zjd_1M) 
 
  
 ## Authors
 This project was a result of the collaborative effort of:
-1. Oriekaose Chukwuyem Agholor[Oriekaose Chukwuyem Agholor](https://www.linkedin.com/in/brandon-smith4/) - Aspiring Robotics and Mechatronic Systems Engineer 
-2. Andrew Pries - Aspiring Computer Scientists
+1. Oriekaose Chukwuyem Agholor[Oriekaose Chukwuyem Agholor](https://www.linkedin.com/in/oriekaose-agholor/) - Aspiring Robotics and Mechatronic Systems Engineer 
+2. Andrew Pries [Andrew Pries](https://www.linkedin.com/in/andrew-pries-08781721b/) - Aspiring Computer Scientists
 3. [Brandom Smith](https://www.linkedin.com/in/brandon-smith4/) - Aspiring Robotics and Mechatronic Systems Engineer
 4. Edrees Ahmed [Edrees Ahmed](https://www.linkedin.com/in/edrees-ahmed-1a2186168/)- Aspiring Electrical Engineer
 
