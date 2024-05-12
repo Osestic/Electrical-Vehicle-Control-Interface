@@ -19,8 +19,6 @@ Overall, the Xbox controller can forward steer, reverse steer, brake and acceler
 1.	Install the CAN system on two Raspberry Pis using the instructions in ```RS485-CAN-HAT-user-manuakl-en.pdf```.
 2.	Connect an RS485-CAN-HAT to each of the Raspberry Pis.
 3.	Integrate one of the Raspberry Pis with the Woodpecker Electric Vehicle (EV) platform by connecting the CAN High and CAN Low of the RS485-CAN-HAT to that of the EV platform.
-4.	Connect the pins to be configured for parallel communication to pins on the Arbotix -M 
-Arduino.
 
 ### Note:
 1. Ensure both Raspberry Pi's are on the same Ethernet or internal WI-FI networks for the following steps.
