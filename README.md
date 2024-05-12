@@ -59,16 +59,14 @@ ros2 create pkg yourPackageName
 3. Copy the ```subscribe.cpp``` file from the [Subscriber_node](https://github.com/Osestic/Xbox-Woodpecker-Electrical-Vehicle-Interface/tree/main/Subscriber_node) folder and paste it in yourPackageName -> src of the Raspberry Pi (Subscriber node) integrated with the EV platform.
 4. Copy the ```pubvelcpp.cpp``` file from the [Publisher_node](https://github.com/Osestic/Xbox-Woodpecker-Electrical-Vehicle-Interface/tree/main/Publisher_node) folder and paste it in yourPackageName -> src of the other Raspberry Pi (Publisher node).  
 5. Replace the ```CMakeLists.txt``` and ```package.xml``` files with the ones contained in the aforementioned folders for the specific nodes.
-6. Run ```colcon build``` in the Bash terminal in your worskpace at the same level as the ```src``` you created initially.
-7. Afterwards, execute ```source install/local_setup.bash``` in the ```install``` folder within the ```src``` folder.
-8.   
-
+6. Run ```colcon build``` in the Bash terminal in your workspaces at the same level as the ```src``` folders you created initially.
+7. Afterwards, execute ```source install/local_setup.bash``` in the ```install``` folders within the ```src``` folders.
 
 ## Usage
 To run the current capabilities of the WidowX_Arm_HIWONDER_Bionic_Hand-Interface, do the following:
 1. Run the ```main.c``` of the project in Code Composer studio to install it on the microcontroller.
 2. Run the ```main.ino```.
-3. Type in a character that enacts a specific functionality as specificied in the ```main.c``` mentioned.
+3. Type in a character that enacts a specific functionality as specified in the ```main.c``` mentioned.
 
 The following are pictures of the  WidowX_Arm_HIWONDER_Bionic_Hand-Interface in performing different hand positions. 
 
@@ -103,7 +101,9 @@ The image of how the pose capturing looks like is shown below:
 ## Authors
 This project was a result of the collaborative effort of:
 1. Oriekaose Chukwuyem Agholor - Aspiring Robotics and Mechatronic Systems Engineer [https://github.com/Osestic]
-2. Evan Varga - Aspiring Electrical Engineer [https://github.com/EvanVarga]
+2. Andrew Pries - Aspiring Computer Scientists
+3. Brandom Smith - Aspring Robotics and Mechatronic Systems Engineer
+4. Edrees Ahmed - Aspiring Electrical Engineer
 
 ## License
 This project is licensed under the “Commons Clause” License Condition v1.0. See ```LICENSE``` for more information.
