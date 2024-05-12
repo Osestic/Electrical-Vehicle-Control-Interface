@@ -4,6 +4,7 @@
 Oriekaose Agholor and Andrew Pries presenting this project to Senator Gary Peters (on the far left) and National Cyber Director, Harry Coker, Jr. (on the right), during their visit to the University of Detroit Mercy
 
 ![image](https://github.com/Osestic/Xbox-Woodpecker-Electrical-Vehicle-Interface/assets/42704298/af71fddf-a03f-4eec-9f53-9b2c77fc29a9)
+
 The System Block Diagram
 ## Description
 Our project was oriented around using an Xbox controller to control the Woodpecker Electric Vehicle (EV) vehicle through a combination of RS232 USB serial communication, ROS2 publisher/subscriber nodes and CAN. 
@@ -76,11 +77,11 @@ To use an Xbox to control the WoodpeckervElectrical Vehicle Interface, do the fo
 ![image](https://github.com/Osestic/Xbox-Woodpecker-Electrical-Vehicle-Interface/assets/42704298/90b6bb2a-35ac-4027-9f35-61e07d7346bc)
 The Xbox Control Layout We Specified for Controlling the Electrical Vehicle Platform</p>
 
-## Development Process
+### Development Process
 [Check out the development process in my YouTube playlist](https://www.youtube.com/playlist?list=PL0DIBq2mP_CGUCG4vjxHVTH7tr-DX0TGv)
 
 
-## Presentation and Demo to Senator Gary Peters (on the far left) and National Cyber Director, Harry Coker, Jr. 
+### Presentation and Demo to Senator Gary Peters (on the far left) and National Cyber Director, Harry Coker, Jr. 
 ![vehicle present](https://github.com/Osestic/Xbox-Woodpecker-Electrical-Vehicle-Interface/assets/42704298/d906fbe6-7b2e-4556-9d71-ab96f1bfa41f)
 [Video Demo](https://youtu.be/h61ZqsItLts?si=CaRQgDzqr-zjd_1M) 
 
