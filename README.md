@@ -16,7 +16,7 @@ Overall, the Xbox controller can forward steer, reverse steer, brake and acceler
 
 
 ## Set up
-1.	Install the CAN system on two Raspberry Pis using the instructions in ‘’’PyPose.py’’’ .
+1.	Install the CAN system on two Raspberry Pis using the instructions in ```RS485-CAN-HAT-user-manuakl-en.pdf```.
 2.	Screw the HIWONDER BIONIC Hand onto it.
 3.	Connect the pins to be configured as pulse-width modulation pins to hand.
 4.	Connect the pins to be configured for parallel communication to pins on the Arbotix -M 
