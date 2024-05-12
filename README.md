@@ -46,22 +46,23 @@ Steps to install the program:
 
    a. Create a new folder on both devices and create a ```src``` folder in both.
 
-   b. In the Bash terminal,
-      ````
+   b. In the Bash terminals of both Raspberry Pis run the code below.
 ```bash
 #Replace the address with the src folder location
 cd address/src
 
 #Creates a package
-#Replace packageName with any name of your choice
-ros2 create pkg packageName
+#Replace yourPackageName with any name of your choice
+ros2 create pkg yourPackageName
 ```
-````
-3. Download the python project in the [Arm_Position_Capture](https://github.com/Osestic/WidowX_Arm_HIWONDER_Bionic_Hand-Interface/tree/main/Robocontroller_Arm/Arm_Position_Capture)/ folder contained in [Robocontroller_Arm](https://github.com/Osestic/WidowX_Arm_HIWONDER_Bionic_Hand-Interface/tree/main/Robocontroller_Arm)/ and run it on a Integrated Development Environment (IDE) or text editor that can support Python 2 such as Pycharm.
-4. You may need to install a virtual interpreter for Python 2.
-5. Run ```PyPose.py``` from the folder which will bring up the Arm position software.
-6. Run ```pypose.ino``` on the robocontroller with Arduino 1.8.5 (Do so for all arduino files). This will work with the python software to capture the position of the robot arm by just moving it and pressing the capture button.
-7. Run ```main.ino```, and do so with ```poses.h``` being in its same location. This contains the code that interfaces the robocontroller with the microcontroller. You can create more gestures and include the robot commands in it.
+
+3. Copy the ```subscribe.cpp``` file from the ```Subscriber_node``` folder and paste it in yourPackageName -> src of the Raspberry Pi integrated with the EV platform.
+4. Copy the ```pubvelcpp.cpp``` file from the ```Publisher_node``` folder and paste it in yourPackageName -> src of the other Raspberry Pi  
+5. Download the python project in the [Arm_Position_Capture](https://github.com/Osestic/WidowX_Arm_HIWONDER_Bionic_Hand-Interface/tree/main/Robocontroller_Arm/Arm_Position_Capture)/ folder contained in [Robocontroller_Arm](https://github.com/Osestic/WidowX_Arm_HIWONDER_Bionic_Hand-Interface/tree/main/Robocontroller_Arm)/ and run it on a Integrated Development Environment (IDE) or text editor that can support Python 2 such as Pycharm.
+6. You may need to install a virtual interpreter for Python 2.
+7. Run ```PyPose.py``` from the folder which will bring up the Arm position software.
+8. Run ```pypose.ino``` on the robocontroller with Arduino 1.8.5 (Do so for all arduino files). This will work with the python software to capture the position of the robot arm by just moving it and pressing the capture button.
+9. Run ```main.ino```, and do so with ```poses.h``` being in its same location. This contains the code that interfaces the robocontroller with the microcontroller. You can create more gestures and include the robot commands in it.
 
 ## Usage
 To run the current capabilities of the WidowX_Arm_HIWONDER_Bionic_Hand-Interface, do the following:
