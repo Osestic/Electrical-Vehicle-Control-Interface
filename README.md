@@ -6,7 +6,7 @@ Oriekaose Agholor and Andrew Pries presenting this project to Senator Gary Peter
 ## Description
 Our project was oriented around using an Xbox controller to control the Woodpecker Electric Vehicle (EV) vehicle through a combination of RS232 USB serial communication, ROS2 publisher/subscriber nodes and CAN. 
 
-It pushed our minds and abilities to be able to create our own interfacing and electric vehicle control software that we can go on to improve up on and implement either in our own projects, the company we work for or our own company if we choose to found one. It is also a pathway into electrical vehicle cybersecurity as cars around 3 years back were being hacked through their CAN, compromising them.
+It pushed our minds and abilities to be able to create our own interfacing and electric vehicle control software that we can go on to improve upon and implement either in our own projects, the company we work for or our own company if we choose to found one. It is also a pathway into electrical vehicle cybersecurity as cars around 3 years back were being hacked through their CAN, compromising them.
 
 The project involved installing ROS2 on two separate Raspberry Pi’s, creating a publisher C file on one Raspberry Pi, and a subscriber C file on the other.  We then were able to connect the Xbox controller and receive data into the publisher using a format for event-driven architecture. We then manipulated the data in the way we wanted to send it to the subscriber. 
 
@@ -26,19 +26,19 @@ Overall, the Xbox controller can forward steer, reverse steer, brake and acceler
 ## Programmed With
 
 ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![ROS 2 Logo](https://avatars.githubusercontent.com/u/3979232?s=200&v=4)
+![ROS 2 Logo](https://avatars.githubusercontent.com/u/3979232?s=200&v=4) (ROS2)
 
 
 ## Installation
 There are 2 different folders containing the two major pieces of the project:
-- [Microcontroller_Hand](https://github.com/Osestic/WidowX_Arm_HIWONDER_Bionic_Hand-Interface/tree/main/Microcontroller_Hand)/
+- [Publisher_node](https://github.com/Osestic/Xbox-Woodpecker-Electrical-Vehicle-Interface/tree/main/Publisher_node)
 
-- [Robocontroller_Arm](https://github.com/Osestic/WidowX_Arm_HIWONDER_Bionic_Hand-Interface/tree/main/Robocontroller_Arm)/
+- [Subscriber_node](https://github.com/Osestic/Xbox-Woodpecker-Electrical-Vehicle-Interface/tree/main/Subscriber_node)
 
 
-As the names imply, the former folder contains the code that programs the microcontroller and the UART that sends commands to the robocontroller using C, and the latter contains the code that programs the robocontroller using C++ and python. 
+As the names imply, the first folder contains the code for setting up and creating the publisher node to be installed on one Raspberry Pi, and the other folder contains the code for the subscriber node to be installed on the Raspberry Pi integrated with the EV platform. 
 
-Steps to install the programs:
+Steps to install the softwares:
 1. Download the project in [Microcontroller_Hand](https://github.com/Osestic/WidowX_Arm_HIWONDER_Bionic_Hand-Interface/tree/main/Microcontroller_Hand)/ and run it on Code Composer studio to install it on a Tiva C Series TM4C123G microcontroller.
 2. Download the python project in the [Arm_Position_Capture](https://github.com/Osestic/WidowX_Arm_HIWONDER_Bionic_Hand-Interface/tree/main/Robocontroller_Arm/Arm_Position_Capture)/ folder contained in [Robocontroller_Arm](https://github.com/Osestic/WidowX_Arm_HIWONDER_Bionic_Hand-Interface/tree/main/Robocontroller_Arm)/ and run it on a Integrated Development Environment (IDE) or text editor that can support Python 2 such as Pycharm.
 3. You may need to install a virtual interpreter for Python 2.
