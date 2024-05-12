@@ -29,7 +29,7 @@ Overall, the Xbox controller can forward steer, reverse steer, brake and acceler
 ## Programmed With
 
 ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![ROS 2 Logo](https://avatars.githubusercontent.com/u/3979232?s=200&v=4) (ROS2)
+![ROS](https://img.shields.io/badge/ros-%230A0FF9.svg?style=for-the-badge&logo=ros&logoColor=white)(ROS2)
 
 
 ## Installation
@@ -45,14 +45,18 @@ Steps to install the program:
 1. Create a ROS2 package on both Raspberry Pis by doing the following
 
    a. Create a new folder on both devices and create a ```src``` folder in both.
-   ````
+
+   b. In the Bash terminal,
+      ````
 ```bash
-cd Desktop
+#Replace the address with the src folder location
+cd address/src
+
+#Creates a package
+#Replace packageName with any name of your choice
+ros2 create pkg packageName
 ```
 ````
-
- 
-   b. In the Bash terminal, ```src``` 
 3. Download the python project in the [Arm_Position_Capture](https://github.com/Osestic/WidowX_Arm_HIWONDER_Bionic_Hand-Interface/tree/main/Robocontroller_Arm/Arm_Position_Capture)/ folder contained in [Robocontroller_Arm](https://github.com/Osestic/WidowX_Arm_HIWONDER_Bionic_Hand-Interface/tree/main/Robocontroller_Arm)/ and run it on a Integrated Development Environment (IDE) or text editor that can support Python 2 such as Pycharm.
 4. You may need to install a virtual interpreter for Python 2.
 5. Run ```PyPose.py``` from the folder which will bring up the Arm position software.
