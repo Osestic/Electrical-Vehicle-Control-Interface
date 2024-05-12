@@ -1,7 +1,7 @@
 # Xbox Woodpecker Electrical Vehicle Interface </h2>
 ![Cyberdirector](https://github.com/Osestic/Xbox-Woodpecker-Electrical-Vehicle-Interface/assets/42704298/2618f998-ee56-48d8-8924-cf8c0920eed5)
 
-Oriekaose Agholor and Andrew Pries presenting this project to Senator Gary Peters (on the far left) and National Cyber Director, Harry Coker, Jr. (on the right), during their visit to the University of Detroit Mercy
+[Oriekaose Chukwuyem Agholor](https://www.linkedin.com/in/oriekaose-agholor/) and [Andrew Pries](https://www.linkedin.com/in/andrew-pries-08781721b/) presenting this project to Senator Gary Peters (on the far left) and National Cyber Director, Harry Coker, Jr. (on the right), during their visit to the University of Detroit Mercy
 
 ![image](https://github.com/Osestic/Xbox-Woodpecker-Electrical-Vehicle-Interface/assets/42704298/af71fddf-a03f-4eec-9f53-9b2c77fc29a9)
 
