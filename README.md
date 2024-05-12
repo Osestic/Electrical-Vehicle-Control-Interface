@@ -56,8 +56,8 @@ cd address/src
 ros2 create pkg yourPackageName
 ```
 
-3. Copy the ```subscribe.cpp``` file from the ```Subscriber_node``` folder and paste it in yourPackageName -> src of the Raspberry Pi integrated with the EV platform.
-4. Copy the ```pubvelcpp.cpp``` file from the ```Publisher_node``` folder and paste it in yourPackageName -> src of the other Raspberry Pi  
+3. Copy the ```subscribe.cpp``` file from the [Subscriber_node](https://github.com/Osestic/Xbox-Woodpecker-Electrical-Vehicle-Interface/tree/main/Subscriber_node) folder and paste it in yourPackageName -> src of the Raspberry Pi integrated with the EV platform.
+4. Copy the ```pubvelcpp.cpp``` file from the [Publisher_node](https://github.com/Osestic/Xbox-Woodpecker-Electrical-Vehicle-Interface/tree/main/Publisher_node) folder and paste it in yourPackageName -> src of the other Raspberry Pi.  
 5. Download the python project in the [Arm_Position_Capture](https://github.com/Osestic/WidowX_Arm_HIWONDER_Bionic_Hand-Interface/tree/main/Robocontroller_Arm/Arm_Position_Capture)/ folder contained in [Robocontroller_Arm](https://github.com/Osestic/WidowX_Arm_HIWONDER_Bionic_Hand-Interface/tree/main/Robocontroller_Arm)/ and run it on a Integrated Development Environment (IDE) or text editor that can support Python 2 such as Pycharm.
 6. You may need to install a virtual interpreter for Python 2.
 7. Run ```PyPose.py``` from the folder which will bring up the Arm position software.
