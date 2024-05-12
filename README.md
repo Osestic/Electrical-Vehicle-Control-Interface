@@ -67,9 +67,9 @@ ros2 create pkg yourPackageName
 
 ## Usage
 To use an Xbox to control the WoodpeckervElectrical Vehicle Interface, do the following:
-1. Run  ls ```/dev/input/ ``` in the bash terminal of the publisher node.
+1. Run ```ls /dev/input/ ``` in the bash terminal of the publisher node.
 2. Connect the Xbox controller to the publisher node.
-3. Run  ls ```/dev/input/ ``` again.
+3. Run ```ls /dev/input/ ``` again.
 4. Compare both outputs and  make note of the new input device file name that starts with ```event```.
 5. Run ```ros2 run yourPackageName pubvelcpp /dev/input/inputDeviceFileName``` in the Bash terminal in your workspace at the same level as the ```src``` folder.
 6. Then, on your subscriber node run ```ros2 run yourPackageName subscribe ``` in the Bash terminal in your workspace at the same level as the ```src``` folder.
