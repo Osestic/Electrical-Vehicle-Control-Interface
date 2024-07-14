@@ -7,7 +7,7 @@
 
 The System Block Diagram
 ## Description
-Our project was oriented around using an Xbox controller to control the Woodpecker Electric Vehicle (EV) through a combination of RS232 USB serial communication, ROS2 publisher/subscriber nodes and CAN. 
+his project was part of our Hardware and Software Integration course and the VICEROY Scholar research program. It was oriented around using an Xbox controller to control the Woodpecker Electric Vehicle (EV) through a combination of RS232 USB serial communication, ROS2 publisher/subscriber nodes and CAN. 
 
 It pushed our minds and abilities to be able to create our own interfacing and electric vehicle control software that we can go on to improve upon and implement either in our own projects, the company we work for or our own company if we choose to found one. It is also a pathway into electrical vehicle cybersecurity as cars around 3 years back were being hacked through their CAN, compromising them.
 
